@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles/globals.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet">
+  <script src="/scripts/script.js" defer></script>
+</head>
+
+<body class="page">
+  <article class="quiz-block">
+    <header class="qiuz-block__header">
+      <p class="question-counter">
+        1 of 5 Questions
+      </p>
+      <div class="timer">
+
+      </div>
+    </header>
+    <div class="quiz-block__content">
+      <h2 class="question">Question text</h2>
+      <ul class="answers-list">
+        <li class="answers-list-item">
+          <input type="radio" name="quiz-answers" class="answer" id="first_option">
+          <label for="first_option" id="first_option-text">
+            Question
+          </label>
+        </li>
+        <li class="answers-list-item">
+          <input type="radio" name="quiz-answers" class="answer" id="second_option">
+          <label for="second_option" id="second_option-text">
+            Question
+          </label>
+        </li>
+        <li class="answers-list-item">
+          <input type="radio" name="quiz-answers" class="answer" id="third_option">
+          <label for="third_option" id="third_option-text">
+            Question
+          </label>
+        </li>
+        <li class="answers-list-item">
+          <input type="radio" name="quiz-answers" class="answer" id="fourth_option">
+          <label for="fourth_option" id="fourth_option-text">
+            Question
+          </label>
+        </li>
+      </ul>
+      <button id="submit"> Answer</button>
+    </div>
+  </article>
+</body>
+
+</html>
